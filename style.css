@@ -1,12 +1,11 @@
 :root{
-    --blue:#313f59
-    --bgcolor:#c2c6d2;
-    --gray:#cic4cd;
+    --blue:#005fff;
+    --bgcolor:#ffffff;
       }
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 200;
+    padding: 150;
     font-family: system-ui;
 }
 
@@ -16,7 +15,7 @@ content {
 }
 
 body{
-    background-color: lightblue;
+    background-color: white;
     margin: 20px;
     width: auto;
     }
@@ -28,7 +27,6 @@ body{
 }
 
 img {
-    border-radius: 50%;
     width: 200px;
     height:200px;
   }
@@ -71,7 +69,7 @@ fa{
     color: var(--white);
     text-align: center;
 }
-.p2{
+.p{
     color: var(--black);
     text-align: center;
     margin-left: 80px;
@@ -98,13 +96,7 @@ h2{
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
-h4 {
-    text-transform: uppercase;
-    font-weight: 500px;
-    letter-spacing: 5px;
-    margin-bottom: 5px;
-    margin-top: 10px;
-}
+
 .one{ margin-left: 20px; text-transform: uppercase; font-size: 14px; }
 .batch{ width: 100px; margin-left: -37px; margin-top: 51px;}
 .batch p{
