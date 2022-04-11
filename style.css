@@ -64,17 +64,21 @@ object-fit: cover;
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 1.4em;
 }
 .profileText h2 span
 {
 font-size: 0.8em;
-    font-weight: 300;
+    font-weight: 600;
 }
 .contactInfo
 {
     padding-top: 40px;
+}
+.contactInfo h3 
+{
+    font-weight: 100;
 }
 .title
 {
