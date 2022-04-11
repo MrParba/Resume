@@ -151,14 +151,11 @@ font-weight: 300;
  background: #fff;
  padding: 40px;
 }
-.about
+.objectives
 {
-    margin-bottom: 50px;
-    
-    
-        
+    margin-bottom: 50px;      
 }
-.about:last-child
+.objectives:last-child
 {
     margin-bottom: 0;
 }
@@ -172,6 +169,7 @@ font-weight: 300;
 p
 {
     color: #333;
+    font-weight: 500;
 }
 .about .box
 {
@@ -204,7 +202,7 @@ p
     color: #848c99;
     font-weight: 500;
 }
-.skills .box  .percent
+.skills .box .percent
 {
     position: relative;
     width: 100%;
@@ -219,7 +217,7 @@ p
     height: 100%;
     background: #03a9f4;
 }
-.about.hobbies ul
+.hobbies ul
 {
     display: grid;
     grid-template: repeat(4,1fr);
