@@ -8,7 +8,7 @@ font-family: "Poppins", san serif;
 }
 body
 {
-background: lightblue;
+background: #fff;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -20,7 +20,7 @@ position: relative;
 width: 100%;
 max-width: 1000px;
 min-height: 100px;
-background: #fff;
+background: #fffbe6;
 margin: 50px;
 display: grid;
 grid-template-columns: 1fr 2fr;
@@ -29,7 +29,7 @@ box-shadow: 0 35px 55px rgba(0,0,0,0,1);
 .container .left_Side
 {
  position:relative;
- background: #003147;
+ background: #66ccff;
  padding: 40px;
 }
 .profileText
@@ -64,7 +64,7 @@ object-fit: cover;
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 600;
+    font-weight: 300;
     line-height: 1.4em;
 }
 .profileText h2 span
@@ -107,27 +107,27 @@ font-size: 0.8em;
     color: #fff;
     font-weight: 300;
 }
-.contactInfo education li
+.education li
 {
     margin-bottom: 15px;
     
 }
-.contactInfo education h5
+.education h5
 {
     color: #03a9f4;
     font-weight: 500;
 }
-.contactInfo education h4:nth-child(2)
+.education h4:nth-child(2)
 {
  color: #fff;
 font-weight: 500;
 }
-.contactInfo education h4
+.education h4
 {
 color: #fff;
 font-weight: 300;
 }
-.contactInfo.language .percent
+.language .percent
 {
     position: relative;
     width: 100%;
@@ -136,7 +136,7 @@ font-weight: 300;
     display: block;
     margin-top: 5px;
 }
-.contactInfo.language .percent div
+.language .percent div
 {
     position: absolute;
     top: 0;
