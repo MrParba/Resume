@@ -181,7 +181,6 @@ p
     display: flex;
     flex-direction: row;
     margin: 20px; 0;
-    flex-direction: column;
 }
 .experience .box year_company
 {
@@ -202,7 +201,6 @@ p
     grid-template-columns: 150px 1fr;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(1,1fr);
 }
 .skills .box h4
 {
@@ -229,8 +227,7 @@ p
 {
     display: grid;
     grid-template: repeat(4,1fr);
-    grid-template-columns: repeat(1,1fr);
-}
+  }
 .hobbies ul li
 {
     list-style: none;
@@ -243,3 +240,16 @@ p
     color: #03a9f4;
     font-size: 18px;
 }
+.experience .box
+{
+flex-direction: column;
+}
+.hobbies ul
+{
+grid-template-columns: repeat(1,1fr);
+}
+.skills .box
+{
+grid-template-columns: repeat(1,1fr);
+}
+ 
