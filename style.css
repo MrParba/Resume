@@ -32,6 +32,7 @@ box-shadow: 0 35px 55px rgba(0,0,0,0,1);
  background: #66ccff;
  padding: 40px;
 }
+
 .profileText
 {
 position: relative;
@@ -175,17 +176,19 @@ p
     color: #333;
     font-weight: 500;
 }
-.about .box
+.experience .box
 {
     display: flex;
     flex-direction: row;
     margin: 20px; 0;
+    flex-direction: column;
 }
-.about .box year_company
+.experience .box year_company
 {
     min-width: 150px;
+    margin-bottom: 5px; 
 }
-.about .box year_company h5
+.experience .box year_company h5
 {
     text-transform: uppercase;
     color: #848c90;
@@ -199,6 +202,7 @@ p
     grid-template-columns: 150px 1fr;
     justify-content: center;
     align-items: center;
+    grid-template-columns: repeat(1,1fr);
 }
 .skills .box h4
 {
@@ -225,6 +229,7 @@ p
 {
     display: grid;
     grid-template: repeat(4,1fr);
+    grid-template-columns: repeat(1,1fr);
 }
 .hobbies ul li
 {
@@ -237,20 +242,4 @@ p
 {
     color: #03a9f4;
     font-size: 18px;
-}
-.about .box
-{
-        flex-direction: column;
- }
-.about .box .year_company
-{
-        margin-bottom: 5px; 
- }
- .interest ul
- {
-        grid-template-columns: repeat(1,1fr);
- }
- .skills .box
-{
-         grid-template-columns: repeat(1,1fr);
 }
