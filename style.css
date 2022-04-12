@@ -104,12 +104,12 @@ font-size: 0.8em;
     display: inline-block;
     width: 30px;
     font-size: 20px;
-    color: #55ccf3;
+    color: #FFFBE6;
 }
 .contactInfo ul li span
 {
     color: #fff;
-    font-weight: 300;
+    font-weight: 10px;
 }
 .education li
 {
