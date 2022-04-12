@@ -134,7 +134,7 @@ font-weight: 300;
 }
 .language .percent
 {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 6px;
     background: #081921;
@@ -143,7 +143,7 @@ font-weight: 300;
 }
 .language .percent div
 {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     height: 100%;
@@ -180,6 +180,11 @@ p
     color: #333;
     font-weight: 500;
 }
+.experience h5
+{
+color: #848c90;
+    font-weight: 600;
+}
 .experience .box
 {
     display: flex;
@@ -191,7 +196,7 @@ p
     min-width: 150px;
     margin-bottom: 5px; 
 }
-.experience .box year_company h5
+.experience .box year_company
 {
     text-transform: uppercase;
     color: #848c90;
@@ -256,4 +261,3 @@ grid-template-columns: repeat(1,1fr);
 {
 grid-template-columns: repeat(1,1fr);
 }
- 
