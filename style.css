@@ -120,7 +120,7 @@ object-fit: cover;
 .education h5
 {
     color: #03a9f4;
-    font-weight: 300;
+    font-weight: 400;
 }
 .education h4:nth-child(2)
 {
@@ -159,6 +159,10 @@ font-weight: 300;
 .objectives
 {
     margin-bottom: 50px;      
+}
+.objectives p
+{
+font-size: 10px;
 }
 .objectives:last-child
 {
@@ -202,7 +206,7 @@ p
     justify-content: center;
     align-items: center;
 }
-.skills .box h4
+.skills h4
 {
     text-transform: uppercase;
     color: #848c99;
