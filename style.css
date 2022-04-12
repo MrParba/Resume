@@ -34,7 +34,7 @@ box-shadow: 0 35px 55px rgba(0,0,0,0,1);
 }
 .profileText
 {
- position: relative;
+position: relative;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -60,16 +60,16 @@ object-fit: cover;
 .profileText h2
 {
     color: #fff;
-    font-size: 1.5m;
+    font-size: 2.0m;
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 600;
+    font-weight: 300;
     line-height: 1.4em;
 }
 .profileText h2 span
 {
-font-size: 0.8em;
+    font-size: 0.8em;
     font-weight: 600;
 }
 .contactInfo
@@ -109,22 +109,22 @@ font-size: 0.8em;
 .contactInfo ul li span
 {
     color: #fff;
-    font-weight: 10px;
+    font-weight: 300;
+    font-size: 10px;
 }
 .education li
 {
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px;    
 }
 .education h5
 {
     color: #03a9f4;
-    font-weight: 500;
+    font-weight: 300;
 }
 .education h4:nth-child(2)
 {
  color: #fff;
-font-weight: 500;
+font-weight: 300;
 }
 .education h4
 {
