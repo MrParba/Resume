@@ -58,7 +58,7 @@ width: 100%;
 height: 100%;
 object-fit: cover;
 }
-.profileText h2
+.profileText h1
 {
     color: #fff;
     font-size: 2.0m;
@@ -68,7 +68,7 @@ object-fit: cover;
     font-weight: 300;
     line-height: 1.4em;
 }
-.profileText h2 span
+.profileText h1 span
 {
     font-size: 0.8em;
     font-weight: 600;
@@ -104,35 +104,34 @@ object-fit: cover;
 {
     display: inline-block;
     width: 30px;
-    font-size: 20px;
+    font-size: 18px;
     color: #FFFBE6;
 }
 .contactInfo ul li span
 {
     color: #fff;
     font-weight: 300;
-    font-size: 10px;
 }
-.education li
+.contactInfo .education li
 {
     margin-bottom: 15px;    
 }
-.education h5
+.contactInfo .education h5
 {
     color: #03a9f4;
-    font-weight: 400;
+    font-weight: 500;
 }
-.education h4:nth-child(2)
+.contactInfo .education h4:nth-child(2)
 {
  color: #fff;
-font-weight: 300;
+font-weight: 500;
 }
-.education h4
+.contactInfo .education h4
 {
 color: #fff;
 font-weight: 300;
 }
-.language .percent
+.contactInfo .language .percent
 {
     position: relative;
     width: 100%;
@@ -141,7 +140,7 @@ font-weight: 300;
     display: block;
     margin-top: 5px;
 }
-.language .percent div
+.contactInfo .language .percent div
 {
     position: absolute;
     top: 0;
@@ -160,10 +159,6 @@ font-weight: 300;
 {
     margin-bottom: 50px;      
 }
-.objectives p
-{
-font-size: 10px;
-}
 .objectives:last-child
 {
     margin-bottom: 0;
@@ -178,12 +173,6 @@ font-size: 10px;
 p
 {
     color: #333;
-    font-weight: 500;
-}
-.experience h5
-{
-color: #848c90;
-    font-weight: 600;
 }
 .experience .box
 {
@@ -191,27 +180,33 @@ color: #848c90;
     flex-direction: row;
     margin: 20px; 0;
 }
-.experience .box year_company
+.experience .box .year_company
 {
     min-width: 150px;
     margin-bottom: 5px; 
 }
-.experience .box year_company
+.experience .box .year_company h5
 {
     text-transform: uppercase;
     color: #848c90;
     font-weight: 600;
 }
+.experience .box .text h4
+{
+text-transform: uppercase;
+color: #2a7da2;
+font-size: 16px;
+}
 .skills .box
 {
     position: relative;
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: 150px 1fr;
     justify-content: center;
     align-items: center;
 }
-.skills h4
+.skills .box h4
 {
     text-transform: uppercase;
     color: #848c99;
@@ -248,12 +243,33 @@ color: #848c90;
 {
     color: #03a9f4;
     font-size: 18px;
+    width: 20px;
 }
+
+@media (max-width: 1000px)
+{
+.container
+{
+margin: 18px;
+grid-template-columns: repeat(1,1fr);
+}
+.hobbies ul
+{
+grid-template-columns: repeat(2,1fr);
+}}
+
+
+@media (max-width: 600px)
+{
 .experience .box
 {
 flex-direction: column;
 }
-.hobbies ul
+.experience .box .year_company
+{
+margin-bottom: 5px;
+}
+.interest ul
 {
 grid-template-columns: repeat(1,1fr);
 }
@@ -261,3 +277,4 @@ grid-template-columns: repeat(1,1fr);
 {
 grid-template-columns: repeat(1,1fr);
 }}
+ 
